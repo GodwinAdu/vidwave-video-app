@@ -46,7 +46,7 @@ const MobileControlTab = ({ setLayout, setShowParticipants}: MobileControlTabPro
         setIsOpen2(!isOpen2);
     };
     return (
-        <div className="flex md:hidden fixed bottom-0  w-full items-center justify-center gap-2 px-2 pb-2">
+        <div className="flex md:hidden fixed bottom-0  w-full items-center justify-center gap-2 px-2 pb-6">
             <div className="relative inline-block text-left">
                 <div>
                     <button
